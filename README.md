@@ -1,7 +1,7 @@
 # React Redux Final Project: Conversation Cards App
 
 Frontend: React, Redux, React Bootstrap
-Project Frontend Repo:[Conversation Cards Frontend Repo](https://github.com/chienleow/conversation-cards-frontend)
+Project Frontend Repo: [Conversation Cards Frontend Repo](https://github.com/chienleow/conversation-cards-frontend)
 Backend: Ruby on Rails
 Database: PostgreSQL
 
