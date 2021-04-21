@@ -6,11 +6,8 @@ class Api::V1::QuestionsController < ApplicationController
 
     def create
         @question = Question.new(question_params)
-        if @question.save
-            render json: @question, status: :accepted
-        else
-            render json: { errors: @question.errors.full_messages }, status: :unprocessable_entity
-        end
+        return render json: { errors: @question.errors.full_messages }, status: :unprocessable_entity unless @question.save
+        render json: @question, status: :accepted
     end
 
     private
